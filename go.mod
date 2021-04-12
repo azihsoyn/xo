@@ -13,6 +13,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.4.0 // indirect
 	github.com/xo/dburl v0.0.0-20200910011426-652e0d5720a3
+	github.com/xo/xo v0.0.0-20201215055213-6fe83c5f98b3
 	github.com/xo/xoutil v0.0.0-20171112033149-46189f4026a5
 	golang.org/x/crypto v0.0.0-20201208171446-5f87f3452ae9 // indirect
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
@@ -20,5 +21,7 @@ require (
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/rana/ora.v4 v4.1.15
 )
+
+replace github.com/xo/xo/internal => ./internal
 
 go 1.13
