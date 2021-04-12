@@ -20,7 +20,7 @@ import (
 	"github.com/azihsoyn/xo/internal"
 	"github.com/xo/xo/models"
 
-	_ "github.com/xo/xo/loaders"
+	_ "github.com/azihsoyn/xo/loaders"
 	_ "github.com/xo/xoutil"
 )
 

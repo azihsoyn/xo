@@ -7,7 +7,7 @@ import (
 
 	"github.com/kenshaw/snaker"
 
-	"github.com/xo/xo/internal"
+	"github.com/azihsoyn/xo/internal"
 	"github.com/xo/xo/models"
 )
 

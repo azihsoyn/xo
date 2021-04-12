@@ -23,5 +23,6 @@ require (
 )
 
 replace github.com/xo/xo/internal => ./internal
+replace github.com/xo/xo/loaders => ./loaders
 
 go 1.13
