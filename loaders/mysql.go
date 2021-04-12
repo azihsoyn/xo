@@ -197,6 +197,14 @@ switchDT:
 		// time is not supported by the MySQL driver. Can parse the string to time.Time in the user code.
 		typ = "string"
 
+	case "year":
+		nilVal = "0"
+		typ = "int16"
+		if nullable {
+			nilVal = "sql.NullInt64{}"
+			typ = "sql.NullInt64"
+		}
+
 	default:
 		if strings.HasPrefix(dt, args.Schema+".") {
 			// in the same schema, so chop off
