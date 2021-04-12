@@ -10,7 +10,7 @@ require (
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/lib/pq v1.9.0
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
-	github.com/pkg/errors v0.9.1 // indirect
+	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.4.0 // indirect
 	github.com/xo/dburl v0.0.0-20200910011426-652e0d5720a3
 	github.com/xo/xoutil v0.0.0-20171112033149-46189f4026a5
